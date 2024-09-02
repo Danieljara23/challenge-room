@@ -6,5 +6,13 @@ def contar_fs (word):
     return count 
 
 print(contar_fs("ffffffffsFss"))
+
+
+
+def contar_caracteres (word, letter):
+    return word.count("letter")
+  
+  
+print(contar_caracteres("FFFFffffC" , "f"))
      
     
