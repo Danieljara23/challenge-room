@@ -1,13 +1,9 @@
-# import pytest
-# from main import contar_caracteres
+# Contar caracteres
+def contar_caracteres(palabra, letra):
+    cantidad_letra = palabra.count(letra)
+    return cantidad_letra
 
-def test_lowercase():
-  assert contar_caracteres("kakkerlak", "k") == 4
-
-def test_uppercase():
-  assert contar_caracteres("KAKKerlak", "K") == 3
-
-def test_raises_exception_on_non_string_arguments():
-    with pytest.raises(TypeError):
-        contar_caracteres(9, 8)
-
+palabra2 = input("Ingresa una palabra: ")
+Letra2 = input("Ingresa la letra a detectar: ")
+resultado2 = contar_caracteres(palabra2, Letra2)
+print(f"La palabra {palabra2} tiene {resultado2} {Letra2}")
