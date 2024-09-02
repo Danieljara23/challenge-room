@@ -1,5 +1,5 @@
-import pytest
-from main import contar_caracteres
+# import pytest
+# from main import contar_caracteres
 
 def test_lowercase():
   assert contar_caracteres("kakkerlak", "k") == 4
