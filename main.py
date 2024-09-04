@@ -1,4 +1,8 @@
-def contar_fs(word):
-    return word.count("F")
+palabra = "Futbvol"
+caracteres = len(palabra)
+print(caracteres)   
 
-print(contar_fs("FF"))
+def contar_fs(letras):
+    return letras.count("F")
+
+print(contar_fs(palabra))
