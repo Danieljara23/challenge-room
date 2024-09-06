@@ -1,8 +1,8 @@
-palabra = "Futbvol"
+palabra = "mimamamemima"
 caracteres = len(palabra)
 print(caracteres)   
 
-def contar_fs(letras):
-    return letras.count("F")
+def contar_caracteres(letras,caracter):
+    return letras.count(caracter)
 
-print(contar_fs(palabra))
+print(contar_caracteres(palabra, "m"))
